@@ -1,0 +1,12 @@
+This file will help keep track of our "to dos"
+
+First big step - Get GenTranscriptReadcounts.R running problems. It should have five main functions:
+1) Input argument parsing (partially redone by Ted, based on Matt's earlier code)
+2) Gene readcount input (partially redone by Ted, based on Matt's earlier code)
+3) Reading GeneID|GeneName|TranscriptID|TranscriptName file. GGTT for short? Totally unwritten so far
+4) Randonmly generating readcounts per transcript and per gene, including selection of
+genes to be differentially spliced.
+5) Outputting a table with the Genes, transcripts, and readcounts per condition
+
+Second big step - taking the output from the first big step, and generating a FASTA/FASTQ file of reads
+
